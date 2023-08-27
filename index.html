@@ -13,7 +13,7 @@
 </head>
 
 <body class="" id="page-top" onload="translate('en','lng-tag')">
-    <div class="layer"><img src="./src/layer.svg" alt="" loading="" /></div>
+
     <header>
         <nav>
             <ul>
@@ -41,36 +41,56 @@
         </nav>
     </header>
     <main>
-        <section class="hero" id="hero">
-            <div class="left">
+        <section class="hero area" id="hero">
+
+
+            <!-- START - Animated Background -->
+
+            <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+
+            <!-- END - Animated Background -->
+
+            <div class="left to-Front">
                 <div>
                     <div class="welcome">
                         <div id="line"></div>
-                        <span id="welcome">Welcome!</span>
+                        <span id="welcome">Welcome !</span>
                     </div>
                     <h1><span id="iam">I<span>'</span>m</span> <span class="glow">Chiko </span><span
-                            class="glow">T</span><span class="text-danger">.</span></h1>
+                            class="glow">Tridipa S</span><span class="text-danger">.</span></h1>
                     <div class="titles">
-                        <span id="title-1">Web Developer Enthusiast</span>
+                        <span id="title-1">Web Development Enthusiast</span>
                     </div>
                 </div>
 
                 <div class="buttons">
-                    <a href="src/CV - Chiko Tridipa.pdf" target="_blank" class="btn btn-danger"><span id="download">Download CV</span> <i
-                            data-feather="arrow-down-circle"></i></a>
+                    <a href="src/CV - Chiko Tridipa.pdf" target="_blank" class="btn btn-danger btn-dl"><span
+                            id="download">Download My CV</span> <i data-feather="arrow-down-circle"></i></a>
                     <!-- <div class="lang-btn">
-                        <a href="#">
-                            <img src="https://flagcdn.com/gb.svg" width="30" alt="English" />
-                        </a>
-                        |
-                        <a href="./indo.html">
-                            <img src="https://flagcdn.com/id.svg" width="30" alt="Indonesian" />
-                        </a>
-                    </div> -->
+                            <a href="#">
+                                <img src="https://flagcdn.com/gb.svg" width="30" alt="English" />
+                            </a>
+                            |
+                            <a href="./indo.html">
+                                <img src="https://flagcdn.com/id.svg" width="30" alt="Indonesian" />
+                            </a>
+                        </div> -->
                 </div>
+
             </div>
-            <div class="right">
-                <img src="./src/me.webp" alt="Me" srcset="" loading="lazy" />
+            <div class="right to-Front">
+                <img src="./src/me.webp" alt="Chiko Tridipa" srcset="" loading="lazy" />
             </div>
             <div class="scroll-down">
                 <span id="scroll-down">Scroll Down</span>
@@ -80,7 +100,9 @@
                         fill="white" />
                 </svg>
             </div>
+
         </section>
+
         <section class="about" id="about">
             <h2><span id="about-title">About</span> <i data-feather="info"></i></h2>
             <div class="container">
@@ -88,7 +110,8 @@
                 <div id="about-text">
                     <p id="about-text-1">
                         Hi there, I'm Chiko, a computer science student at Universitas Negeri Jakarta.
-                        I'm really into Front-End Development, which is all about making websites look and work great.
+                        I'm really into Front-End Development also have some knowledge in Back-End, which is all about
+                        making websites look and work great.
                         I know a bunch of coding languages like HTML, CSS, JavaScript, PHP, MySQL, and Python.
                     </p>
                     <p id="about-text-2">
@@ -190,22 +213,27 @@
                     <div class="carousel-inner">
                         <!-- Tempatkan card di dalam carousel-inner -->
                         <div class="card mb-2">
-                            <img src="./src/projects/kasirku.png" alt="Kasirku" loading="lazy" />
+                            <a href="https://kasirku.chikotridipa.site/" target="_blank">
+                                <img src="./src/projects/kasirku.png" alt="Kasirku" loading="lazy" />
+                            </a>
                             <div class="card-text">
                                 <p id="project-5">Kasirku</p>
-                                <a href="./src/projects/kasirku.png" target="_blank" rel="noopener noreferrer"><i
-                                        data-feather="external-link"></i> </a>
+                                <a href="https://kasirku.chikotridipa.site/" target="_blank"
+                                    rel="noopener noreferrer"><i data-feather="link-2"></i>Click Me!</a>
                             </div>
                         </div>
                         <div class="card mb-2">
-                            <img src="./src/projects/no-image.jpg" alt="Community Poster - S3 Show" loading="lazy" />
+                            <a href="#" target="_blank">
+                                <img src="./src/projects/warung-digital.png" alt="Warung Digital" loading="lazy" />
+                            </a>
                             <div class="card-text">
                                 <p id="project-5">Warung Digital</p>
-                                <a href="./src/projects/no-image.jpg" target="_blank" rel="noopener noreferrer"><i
-                                        data-feather="external-link"></i> </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer"><i data-feather="link-2"></i>Click
+                                    Me!
+                                </a>
                             </div>
                         </div>
-                        <div class="card mb-2">
+                        <!-- <div class="card mb-2">
                             <img src="./src/projects/no-image.jpg" alt="Community Poster - S3 Show" loading="lazy" />
                             <div class="card-text">
                                 <p id="project-5">Numble</p>
@@ -214,19 +242,19 @@
                             </div>
                         </div>
                         <div class="card mb-2">
-                            <img src="./src/projects/tandatanganio.png" alt="Tandatangan.io" loading="lazy" />
+                            <img src="./src/projects/no-image.jpg" alt="Tandatangan.io" loading="lazy" />
                             <div class="card-text">
                                 <p id="project-5">Tandatangan.io</p>
                                 <a href="./src/projects/tandatanganio.png" target="_blank" rel="noopener noreferrer"><i
                                         data-feather="external-link"></i> </a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
-                <div class="controls">
+                <!-- <div class="controls">
                     <button id="prev-btn" class="btn btn-primary"><i data-feather="chevron-left"></i> Prev</button>
                     <button id="next-btn" class="btn btn-primary"><i data-feather="chevron-right"></i> Next</button>
-                </div>
+                </div> -->
             </div>
         </section>
 
@@ -243,29 +271,77 @@
                     learn more about my journey so far.
                 </p> -->
                 <div class="row">
-                    <div>
-                        <h3 id="edu-title">Education <i data-feather="book-open"></i></h3>
+                    <div class="left">
+                        <h3 id="edu-title">Education & Certificates<i data-feather="book-open"></i></h3>
                         <div class="card">
                             <small>2017 - 2020</small>
                             <p id="edu-1">SMAN 107 Jakarta</p>
+                            <ul>
+                                <li><small>Participant in the FLS2N Competition</small></li>
+                            </ul>
                         </div>
                         <div class="line"></div>
                         <div class="card">
                             <small>2020 - <span id="present-1">Present</span></small>
                             <p id="edu-2">University of Jakarta</p>
+                            <ul>
+                                <li><small id="edu-2-award-5">Crafted interactive web apps using HTML, CSS, and
+                                        JavaScript for dynamic user interfaces.</small></li>
+                                <li><small id="edu-2-award-5">Built PHP and MySQL-based e-commerce site with secure
+                                        authentication and seamless checkouts.</small></li>
+                                <li><small id="edu-2-award-5">Collaborated with diverse teams, lending technical prowess
+                                        for project success.</small></li>
+                                <li><small id="edu-2-award-5">Used Git for version control, collaborating with team for
+                                        efficient codebase management.</small></li>
+                            </ul>
+                        </div>
+                        <div class="line-2"></div>
+                        <div class="card">
+                            <!-- <small>2020 - <span id="present-1">Present</span></small> -->
+                            <p id="edu-2">Certificates</p>
+                            <ul>
+                                <li><a href="https://www.dicoding.com/certificates/EYX46LNE6PDL" target="_blank"
+                                        id="edu-2-award-5">2023 I Fundamentals of Programming to Become a Software
+                                        Developer <i class="icon" data-feather="link-2"></i></a></li>
+                                <li><a href="https://www.dicoding.com/certificates/0LZ097OM3Z65" target="_blank"
+                                        id="edu-2-award-5">2023 I Project Management Course Certificate <i class="icon"
+                                            data-feather="link-2"></i></a></li>
+                                <li><a href="https://www.dicoding.com/certificates/JMZV9R43OPN9" target="_blank"
+                                        id="edu-2-award-5">2023 I SQL Course Certificate <i class="icon"
+                                            data-feather="link-2"></i></a></li>
+                                <li><a href="https://www.sololearn.com/certificates/CC-7BCILEZU" target="_blank"
+                                        id="edu-2-award-5">2023 I HTML Course Certificate <i class="icon"
+                                            data-feather="link-2"></i></a></li>
+                            </ul>
                         </div>
                     </div>
+                    <div class="right">
+                        <h3><span id="exp">Experience</span> <i data-feather="briefcase"></i></h3>
+                        <div class="card">
+                            <small>2019 - Present</small>
+                            <p>Content Editor, Social Media Admin</p>
+                            <!-- <ul>
+                                <li><small id="it-staff"></small></li>
+                            </ul> -->
+                        </div>
+                        <!-- <div class="card">
+                            <small>2019 - 2023</small>
+                            <p>@filmboxofficeid</p>
+                            <ul>
+                                <li><small id="it-staff">Content Editor, Social Media Admin</small></li>
+                            </ul>
+                        </div> -->
+                    </div>
                 </div>
-            </div>
         </section>
         <section class="contact" id="contact">
             <h2><span id="contact-title">Contact</span> <i data-feather="mail"></i></h2>
             <div class="container">
                 <div class="left">
                     <p id="contact-text">
-                        Feel free to reach out to me via email or social media. I am always open to new
-                        <span class="highlight">opportunies</span> <span id="and">and</span> <span
-                            class="highlight">collaborations</span>.
+                        Feel free to contact me via email or social media. I'm open to new <span
+                            class="highlight">opportunities</span> and <span class="highlight">collaborations</span>
+                        anytime.
                     </p>
                     <div class="addresses">
                         <p><span class="add-line"></span>+62 878 8715 2770</p>
@@ -278,6 +354,8 @@
                     <div class="socials">
                         <a title="Chiko Tridipa" href="https://instagram.com/chikotridipa"><i
                                 data-feather="instagram"></i></a>
+                        <a title="Chiko Tridipa" href="https://twitter.com/chiko_tridipa"><i
+                                data-feather="twitter"></i></a>
                         <a title="Chiko Tridipa" href="https://github.com/chikotridipa"><i
                                 data-feather="github"></i></a>
                         <a title="Chiko Tridipa" href="https://www.linkedin.com/in/chiko-tridipa"><i
@@ -290,21 +368,21 @@
                             <input name="Nama" type="text" placeholder="Your Name" />
                         </div>
                         <div class="form-control">
-                            <input name="Email" type="email" placeholder="Email Address" />
+                            <input name="Email" type="email" placeholder="Your Email" />
                         </div>
                         <div class="form-control">
                             <textarea name="Message" id="msg" cols="30" rows="10" placeholder="Message"></textarea>
                         </div>
                         <button type="submit" class="btn btn-danger"><span id="send">Send</span> <i
-                                data-feather="send"></i></button>
+                                data-feather="loader"></i></button>
                     </form>
                 </div>
             </div>
         </section>
     </main>
-    <footer>
-        <!-- <small id="created">Created with ❤ by Chiko Tridipa</small> -->
-    </footer>
+    <!-- <footer>
+        <small id="created">Created with ❤ by Chiko Tridipa</small>
+    </footer> -->
 
     <!-- Script -->
     <script>
